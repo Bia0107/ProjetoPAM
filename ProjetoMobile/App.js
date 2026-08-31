@@ -1,7 +1,7 @@
 // o jsx é um html, só que escrito em js 
 // importando as coisas 
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image, Button } from 'react-native';
+import HelloWorld from '../components/comp1';
 
 // a View é tipo a div, o que o usuário vai ver.
 export default function App() {
@@ -9,10 +9,7 @@ export default function App() {
   return (
     //interface *chamando o style do container
     <View style={styles.container}>
-      <Text style={styles.container}>Primeiro app!</Text>
-      <Image source={require('../ProjetoMobile/assets/img1.jpg')} style={{width: 100, height: 150,}}></Image>
-      <Button title='Entrar' onPress={() => alert('Botão pressionado!')}></Button>
-      <StatusBar style="auto" />
+      <HelloWorld></HelloWorld>
     </View>
   );
 }
