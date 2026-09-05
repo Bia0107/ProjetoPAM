@@ -9,10 +9,10 @@ export default function Perfil()
 {
     return(
         <View >
-            <Text style={style.text}>Acesse seu perfil</Text>
             <Image source={require('../ProjetoMobile/assets/fotoperfil.jpg')} style={style.image}></Image>
-            <StatusBar style="auto" />
-            <Button title='Entrar' onPress={() => alert('Bem-Vindo!!!')}></Button>
+            <Text style={style.text}>Gatinho nerd</Text>
+            <Text style={style.text}>Usuário ativo.</Text>
+            <Button title='Confirmar' onPress={() => alert('Bem-Vindo!!!')}></Button>
         </View>
     )
 }
