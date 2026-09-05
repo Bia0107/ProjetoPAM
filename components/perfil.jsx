@@ -1,7 +1,6 @@
 //uma função retorna valores, essa vai retornar uma interface(usuário vai ver)
 import {View, Text, Image, Button}  from "react-native";
-import {style} from "../components/comp1.style";
-import { StatusBar } from 'expo-status-bar';
+import {style} from "../components/perfil.style";
 
 
 //defaul = unica função que retorna o helloworld

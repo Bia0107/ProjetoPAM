@@ -1,7 +1,7 @@
 // o jsx é um html, só que escrito em js 
 // importando as coisas 
 import { StyleSheet, View} from 'react-native';
-import Perfil from '../components/comp1';
+import Perfil from '../components/perfil';
 
 // a View é tipo a div, o que o usuário vai ver.
 export default function App() {
