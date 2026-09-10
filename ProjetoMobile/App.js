@@ -1,7 +1,7 @@
 // o jsx é um html, só que escrito em js 
 // importando as coisas 
 import { StyleSheet, View} from 'react-native';
-import Perfil from '../components/perfil';
+import Perfil from './components/perfil';
 
 // a View é tipo a div, o que o usuário vai ver.
 export default function App() {
@@ -18,13 +18,9 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#f5caff',
     alignItems: 'center',
     justifyContent: 'center',
-  },
-  texto:{
-    fontSize: '20',
-    fontWeight: 'bold',
   },
 });
 
